@@ -222,7 +222,7 @@
 			)
 		)
 		(property "Value" "LM1117-5.0"
-			(at 0 4.5 360)
+			(at 0 4.5 0)
 			(layer "F.Fab")
 			(uuid "eb473bfd-fc2d-4cf0-8714-6b7dd95b0a03")
 			(effects
@@ -233,7 +233,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "041bd180-b3a7-4311-b19e-34b37982f3a3")
@@ -245,7 +245,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fa5fafc-4e16-4010-b0b2-376d6fba4640")
@@ -257,7 +257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ed75a3b-0555-4772-9dc8-354b6f7eece9")
@@ -1120,7 +1120,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic C55, 6.3x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C2"
-			(at -4.51 -4.51 360)
+			(at -4.51 -4.51 0)
 			(layer "F.SilkS")
 			(uuid "1138bbd0-77b8-4839-affd-b298344ef6a3")
 			(effects
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "Value" "100u/16V"
-			(at 0 4.35 360)
+			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "5348e5bc-50a9-4bad-a53a-2161bb80cfe5")
 			(effects
@@ -1142,7 +1142,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00677ec2-2350-4d2e-a0b7-f9253cef0b6b")
@@ -1154,7 +1154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16ae675b-9077-49ca-8777-33c730c97e6e")
@@ -1166,7 +1166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ac148ac-8fb0-4b03-9a51-d54e719267b2")
@@ -1514,7 +1514,7 @@
 			(uuid "ad02accb-0899-42e5-b1e9-25a427cba519")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f7edd7a8-918b-4d82-a915-f665e561e0d2")
 			(effects
@@ -8971,6 +8971,18 @@
 		(layer "F.SilkS")
 		(uuid "1f22b8d4-70a8-4618-afc4-932a82329fbb")
 	)
+	(gr_poly
+		(pts
+			(xy 94.34 64.015) (xy 101.17 64.015) (xy 97.76 61.515) (xy 94.35 63.995)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ad440fcb-87f7-4451-abeb-a41b08afbb11")
+	)
 	(gr_rect
 		(start 92.805 52.375)
 		(end 190.595 93.665)
@@ -8992,6 +9004,19 @@
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Bottom Side"
+		(at 172.53 81.255 0)
+		(layer "B.SilkS")
+		(uuid "4d9e25a6-3336-48d4-b92a-f09e3d80d227")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "REV.1"
@@ -9044,6 +9069,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TO QL"
+		(at 94.5 66.395 0)
+		(layer "F.SilkS")
+		(uuid "1f9433ad-b99f-41a6-b2d8-6ec2b7109dcb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 141.22 54.885 0)
 		(layer "F.SilkS")
@@ -9055,8 +9093,21 @@
 			)
 		)
 	)
-	(gr_text "10-192kB\n11-128kB "
-		(at 176.38 81.255 0)
+	(gr_text "**See notes for compatibility\n"
+		(at 168.66 83.785 0)
+		(layer "F.SilkS")
+		(uuid "48c5ae06-0e35-4036-98c9-f6c213c77747")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "10-192kB\n11-128kB** "
+		(at 175.15 80.845 0)
 		(layer "F.SilkS")
 		(uuid "6bc499fd-7438-4d81-86fa-8eb705ab34a8")
 		(effects
@@ -9102,7 +9153,7 @@
 		)
 	)
 	(gr_text "Original Author: Alvaro Alea Fdz"
-		(at 166.57 77.925 0)
+		(at 166.52 77.365 0)
 		(layer "F.SilkS")
 		(uuid "d013475c-6543-4775-b48d-7ec83e3c94d9")
 		(effects
@@ -9126,7 +9177,7 @@
 		)
 	)
 	(gr_text "00-512kB\n10-256kB"
-		(at 168.46 81.345 0)
+		(at 167.23 80.935 0)
 		(layer "F.SilkS")
 		(uuid "f1497a12-34c5-47a1-b119-74f616f364a3")
 		(effects
