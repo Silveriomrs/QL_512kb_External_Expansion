@@ -3477,10 +3477,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1117-5.0"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:LM1117MP-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3492,7 +3489,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1117-5.0"
+			(property "Value" "LM1117MP-5.0"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -3501,7 +3498,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3519,7 +3516,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3537,7 +3534,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
+			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3546,7 +3543,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1117-5.0_0_1"
+			(symbol "LM1117MP-5.0_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -3559,7 +3556,7 @@
 					)
 				)
 			)
-			(symbol "LM1117-5.0_1_1"
+			(symbol "LM1117MP-5.0_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -4016,9 +4013,9 @@
 		)
 		(symbol "power:+9V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4066,7 +4063,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4116,8 +4113,8 @@
 			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+9V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4136,9 +4133,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4186,7 +4183,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4212,8 +4209,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4282,7 +4279,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4295,7 +4292,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4328,9 +4325,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4344,7 +4341,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4378,7 +4375,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4428,8 +4425,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10439,7 +10436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -10506,7 +10503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
 			(at 64.77 119.38 0)
 			(effects
 				(font
@@ -10572,7 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -10936,7 +10933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -11002,7 +10999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 36.83 0)
 			(effects
 				(font
@@ -11024,7 +11021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM1117-5.0")
+		(lib_id "Regulator_Linear:LM1117MP-5.0")
 		(at 44.45 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11034,7 +11031,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ac2c658-ce29-46fb-894d-f99c774c93d1")
 		(property "Reference" "U3"
-			(at 44.45 152.654 0)
+			(at 44.45 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,7 +11039,7 @@
 			)
 		)
 		(property "Value" "LM1117-5.0"
-			(at 44.45 155.194 0)
+			(at 44.45 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223"
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -11139,7 +11136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 132.08 0)
 			(effects
 				(font
@@ -11186,7 +11183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8bits:DIN41612_B_2x32_Male_Horizontal_THT"
+		(property "Footprint" "Connector_DIN:DIN41612_B_2x32_Male_Horizontal_THT"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -11459,7 +11456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 82.55 158.75 0)
 			(effects
 				(font
@@ -11647,7 +11644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -11783,7 +11780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
 			(at 30.48 158.75 0)
 			(effects
 				(font
@@ -11849,7 +11846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 205.74 116.84 0)
 			(effects
 				(font
@@ -11915,7 +11912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 248.92 144.78 0)
 			(effects
 				(font
@@ -11981,7 +11978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -12047,7 +12044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 198.12 116.84 0)
 			(effects
 				(font
@@ -12114,7 +12111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 36.83 0)
 			(effects
 				(font
@@ -12324,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 21.59 158.75 0)
 			(effects
 				(font
@@ -12460,7 +12457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 182.88 35.56 0)
 			(effects
 				(font
@@ -12526,7 +12523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 21.59 187.96 0)
 			(effects
 				(font
@@ -12846,7 +12843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 30.48 187.96 0)
 			(effects
 				(font
@@ -13055,7 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 219.71 88.9 0)
 			(effects
 				(font

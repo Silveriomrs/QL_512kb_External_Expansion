@@ -1,6 +1,7 @@
 # SINCLAIR QL 512kB External Rom Expansion
 
-![My image](images/QL512K_RAM_Expansion_Front_Full.png) 
+
+![My image](images/schema.png)
 
 **WORKING IN PROGRESS. BOARDS REMAKED NOT TESTED YET**
 
@@ -33,6 +34,7 @@ Alvaro Alea has done a version of the trump card disk interface here: https://gi
 
 You should conect the 512Kb Card to the QL, the MiniTrump Card to the 512Kb, and the +256Kb card to the Mini Trump, and in this board you need to change Switch (*SW1*) to 2-3 to allow the Minitrump card to coordinate with the second memory card.
 
+![My image](images/QL512K_RAM_Expansion_Front_Full.png) 
 
 ![My image](images/QL512K_RAM_Expansion_Front_raw.png) 
 
@@ -40,7 +42,7 @@ You should conect the 512Kb Card to the QL, the MiniTrump Card to the 512Kb, and
 
 
 ## Credits & License
-Original project of (C) 2022 Alvaro Alea Fernandez, who based his development on the work of McLeod Ideafix, Jose Leandro, Zerover and tcat between others. 
+Original project of (C) 2022 Alvaro Alea Fernandez, who based his development on the work of McLeod Ideafix, Jose Leandro, Zerover and tcat among others. 
 
 Thanks to Alberto Benítez (Lince) for his support in improvements the signals.
 
