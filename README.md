@@ -1,13 +1,21 @@
 # SINCLAIR QL 512kB External Rom Expansion
 
+**This board will provide up to 512kB aditional of static RAM (*fast-ram*) to the sinclair QL.**
+
+Full documentation and wiki page under construction
+
+---
 
 ![My image](images/schema.png)
 
-**WORKING IN PROGRESS. BOARDS REMAKED NOT TESTED YET**
+---
 
+![My image](images/RAM_Expansion_QL_Front.jpg) 
 
+![My image](images/RAM_Expansion_QL_Back.jpg) 
 
-This board will provide up to 512kB aditional of static RAM (*fast-ram*) to the sinclair QL.
+---
+**Boards work fine in the QL used for testing**
 
 Two board can be stacked to got a maximun of 898Kb of Memory (*same as Miracle's Trump Card*).
 
@@ -24,6 +32,15 @@ There area available 4 configuration trough switches in the PCB.
 Be aware that **the configuration of 128Kb can not be installed alone**.
 For be able to use 128kB, for a total of 768kB, is mandatory to have an aditional expansion card that put ROM in address E00000h, in other case the QL ROM will hang indicating RAM malfunction, because a weired overlap of the internal 128kB with this external 128kB.
 
+---
+## GERBER FILE
+
+Gerbers ready to use.
+
+[Click here to download the Gerber](Gerber/Gerber_Popopo_QL_RAM_Expansion_v1a.zip) 
+
+---
+
 https://www.instagram.com/p/CZWfWcUM5mx/
 
 In the GAL folder there is the source code to be compiled with GALasm that you can found here: https://github.com/daveho/GALasm
@@ -39,6 +56,7 @@ You should conect the 512Kb Card to the QL, the MiniTrump Card to the 512Kb, and
 ![My image](images/QL512K_RAM_Expansion_Front_raw.png) 
 
 ![My image](images/QL512K_RAM_Expansion_Back.png)
+
 
 
 ## Credits & License
