@@ -31,16 +31,19 @@ Full documentation and wiki page under construction
 
 ---
 
-![My image](images/schema.png)
+<p align="center">
+<img src="images/schema.png" width="90%">
+</p>
+
 
 
 ---
+<p align="center">
+<img src="images/RAM_Expansion_QL_Front.jpg" width="80%">
+<img src="images/RAM_Expansion_QL_Back.jpg" width="80%">
+<img src="images/640K.jpg" width="70%">
+</p>
 
-![My image](images/RAM_Expansion_QL_Front.jpg) 
-
-![My image](images/RAM_Expansion_QL_Back.jpg) 
-
-![My image](images/640K.jpg)
 
 ---
 **Boards work fine in the QL used for testing**
@@ -84,16 +87,19 @@ Alvaro Alea has done a version of the trump card disk interface here: https://gi
 
 > [!IMPORTANT] You should conect the 512Kb Card to the QL, the MiniTrump Card to the 512Kb, and the +256Kb card to the Mini Trump, and in this board you need to change Switch (*SW1*) to 2-3 to allow the Minitrump card to coordinate with the second memory card.
 
-![My image](images/QL512K_RAM_Expansion_Front_Full.png) 
-
+<p align="center">
+<img src="images/QL512K_RAM_Expansion_Front_Full.png" width="80%">
+</p>
 
 ## Combination with other cards
 With other expansion card you could reach extra RAM. Next pictures shows the results.
 
 > [!IMPORTANT] For it, it requires to set the switchs properly and be in the right place in the chain of expansion cards. *Some setting in other boards may be needed*.
 
-<img src="images/896.jpg" width="48%">
-<img src="images/832.jpg" width="48%">
+<p align="center">
+  <img src="images/896K.jpg" width="48%">
+  <img src="images/832K.jpg" width="48%">
+</p>
 
 
 ## Precautions
