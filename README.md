@@ -100,7 +100,8 @@ Alvaro Alea has done a version of the trump card disk interface here: https://gi
 ## Combination with other cards
 With other expansion card you could reach extra RAM. Next pictures shows the results.
 
-> [!IMPORTANT] For it, it requires to set the switchs properly and be in the right place in the chain of expansion cards. *Some setting in other boards may be needed*.
+> [!IMPORTANT]
+> For it, it requires to set the switchs properly and be in the right place in the chain of expansion cards. *Some setting in other boards may be needed*.
 
 <p align="center">
   <img src="images/896K.jpg" width="48%">
