@@ -3,8 +3,8 @@
 
 ![My image](images/schema.png)
 
-**WORKING IN PROGRESS. BOARDS REMAKED NOT TESTED YET**
 
+**Update: little signals improvements in rev1.1**
 
 
 This board will provide up to 512kB aditional of static RAM (*fast-ram*) to the sinclair QL.
