@@ -2,6 +2,11 @@
 
 **This board will provide up to 512kB aditional of static RAM (*fast-ram*) to the sinclair QL.**
 
+> [!NOTE]
+> **Last update: 14-10-2026 PCB revision 1.1 in testing phase.**
+> 
+> Use revision 1.0 for stable version till 1.1 testing is finished.
+
 ## Introduction & Purpose
 
 The projects merges from the need of a expansion board OpenHardware & OpenSource that could adds aditional RAM memory to a stock QL. It is widely covered by other similar projects like the one that was taking as base of this one.
@@ -85,7 +90,8 @@ In the GAL folder there is the source code to be compiled with GALasm that you c
 
 Alvaro Alea has done a version of the trump card disk interface here: https://github.com/alvaroalea/QL_MiniTrump3 , this interface do not provide memory like the original one. You can combine two of this card and the minitrump to got the same of the original trump card.
 
-> [!IMPORTANT] You should conect the 512Kb Card to the QL, the MiniTrump Card to the 512Kb, and the +256Kb card to the Mini Trump, and in this board you need to change Switch (*SW1*) to 2-3 to allow the Minitrump card to coordinate with the second memory card.
+> [!IMPORTANT] 
+> You should conect the 512Kb Card to the QL, the MiniTrump Card to the 512Kb, and the +256Kb card to the Mini Trump, and in this board you need to change Switch (*SW1*) to 2-3 to allow the Minitrump card to coordinate with the second memory card.
 
 <p align="center">
 <img src="images/QL512K_RAM_Expansion_Front_Full.png" width="80%">
