@@ -65,34 +65,7 @@ For be able to use 128kB, for a total of 768kB, is mandatory to have an aditiona
 
 ---
 
-# How to get one
 
-You may get one in two ways:
-
-1. Make your own board PCB.
-2. From another person that could sell it by any platform.
-3. From me directly.
-
-## Make your own expansion RAM
-Firstly you will need the Gerbers for manufacturer. Check the Gerber File section.
-Secondly the most complicate part is to get the components and solder them. The material cost would be around 10-25€ (without taxes, fees and extras for shipping from PCB manufactures and components). If you are reading it is because you are get used so no need to tell you what it means and problems with some distribuitors.
-
-## Buying it to somebody
-My advice & warning in case you cannot make your own board: buy it to someone trusful.
-
-Some people may sell (*same happens with other OpenHardware projects*) giving no support, guarantee or responsability. So you could get it (in the worse case with credits removed) faulty or close to fail, without test them or futher support.
-
-Other makers are trusful people well known in QL world and other scenes that you may trust. That should be the preference number 1 to find them in QL Forum (UK) and Facebook group or some platforms where you could check the reputation of the seller.
-
-## Buy it directly to me
-I'm not a shop but I'd love to help to everyone to have one. Also to make this nice development known and appreciated among old and new Sinclair QL users. Keeping this effort alive.
-
-In case you want one from me, just find/write me directly by QL Forum, Facebook or Telegram ( @Lindyhop ) or email me to ( silverio1974.sr@gmail.com ). *The cost will be 35€ + shipping. I'm happy send to any country*. Note there must be an awaiting list.
-
-* I test it before shipping in my own QL, that implies if there is a **fake/faulty** component (GAL are from China, no possible to get them in other way), the only **damage QL** due to faulty component will be mine, not yours.
-* I mount it very cafefully and cleaning the board to avoid unpleasant surprises, trying keep the beauty, beautiful.
-* Components (*but GAL what are discontinued*) are bought from trustful distribuitors (*Mouser, RS, JLC partner, etc*).
-* You won't need to complain with distribuitors and be penalized with innecesary delayed time for components if something goes wrong with the seller (moreover when you buy to China).
 
 # Gerber file
 
@@ -113,17 +86,15 @@ Alvaro Alea has done a version of the trump card disk interface here: https://gi
 
 ![My image](images/QL512K_RAM_Expansion_Front_Full.png) 
 
-![My image](images/QL512K_RAM_Expansion_Front_raw.png) 
-
-![My image](images/QL512K_RAM_Expansion_Back.png)
 
 ## Combination with other cards
 With other expansion card you could reach extra RAM. Next pictures shows the results.
 
 > [!IMPORTANT] For it, it requires to set the switchs properly and be in the right place in the chain of expansion cards. *Some setting in other boards may be needed*.
 
-![My image](images/896K.jpg)
-![My image](images/832K.jpg)
+<img src="images/896.jpg" width="48%">
+<img src="images/832.jpg" width="48%">
+
 
 ## Precautions
 
